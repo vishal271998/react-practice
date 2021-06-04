@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Counter from "./components/counter";
 import Contact from "./components/Contact";
+import UserListAPI from "./components/api/UserListAPI";
 
 export default function Routes() {
    return <div>
@@ -24,6 +25,9 @@ export default function Routes() {
             </Route>
             <Route path="/contact">
                 <Contact/>
+            </Route>
+            <Route path="/users">
+                <UserListAPI/>
             </Route>
         </Switch>
    </div>

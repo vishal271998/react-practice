@@ -10,15 +10,16 @@ ReactDOM.render((
 
     <div className="wrapper">
         <BrowserRouter>
-    <nav>
-        <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About Us</Link></li>
-            <li><Link to="/counter">Counter</Link></li>
-            <li><Link to="/contact">Contact Us</Link></li>
-            <li><Link to="/contact/contact-form">Contact Form</Link></li>
-        </ul>
-    </nav>
+            <nav>
+                <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About Us</Link></li>
+                    <li><Link to="/counter">Counter</Link></li>
+                    <li><Link to="/contact">Contact Us</Link></li>
+                    <li><Link to="/contact/contact-form">Contact Form</Link></li>
+                    <li><Link to="/users">User List</Link></li>
+                </ul>
+            </nav>
 
             <Routes />
         </BrowserRouter>
