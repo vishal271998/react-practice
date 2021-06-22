@@ -18,6 +18,8 @@ ReactDOM.render((
                     <li><Link to="/contact">Contact Us</Link></li>
                     <li><Link to="/contact/contact-form">Contact Form</Link></li>
                     <li><Link to="/users">User List</Link></li>
+                    <li><Link to="/search-suggestion">Search Suggestion</Link></li>
+                    <li><Link to="/state-example">State Example</Link></li>
                 </ul>
             </nav>
 
