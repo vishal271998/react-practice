@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import UserListAPI from "./components/api/UserListAPI";
 import SearchComponent from "./components/SearchComponent";
 import StateComponent from "./components/StateComponent";
+import FunctionCallComponent from "./components/FunctionCallComponent";
 
 export default function Routes() {
    return <div>
@@ -37,6 +38,9 @@ export default function Routes() {
             <Route path="/state-example">
                 {/*<StateComponent type={'props'}  name={'vishal'} email={'vishal@gmail.com'} age={'23'}/>*/}
                 <StateComponent />
+            </Route>
+            <Route path="/function-call-example">
+                <FunctionCallComponent />
             </Route>
         </Switch>
    </div>

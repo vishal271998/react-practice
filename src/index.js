@@ -20,6 +20,7 @@ ReactDOM.render((
                     <li><Link to="/users">User List</Link></li>
                     <li><Link to="/search-suggestion">Search Suggestion</Link></li>
                     <li><Link to="/state-example">State Example</Link></li>
+                    <li><Link to="/function-call-example">Function Call Example</Link></li>
                 </ul>
             </nav>
 
